@@ -3,9 +3,10 @@ name: Trigger Fork Repo Action🌈
 on:
   push:
     branches:
-      -main
+      - main
+
 jobs:
   trigger-fork:
     runs-on: ubuntu-latest
     steps:
-      - run: echo “main branch pushed”
+      - run: echo "main branch pushed"
