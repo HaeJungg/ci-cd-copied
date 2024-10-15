@@ -7,5 +7,6 @@ on:
 jobs:
   trigger-sync:
     runs-on: ubuntu-latest
+    if: github.repository_owner == 'HaeJungg/ci-cd-copied'
     steps:
       - run: echo 'sync'
